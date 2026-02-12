@@ -48,6 +48,6 @@ axs[2, 0].set_title('Poisson (λ=4)')
 axs[2, 1].axis('off')
 axs[2, 2].axis('off')
 
-# Ajuste estético
+# Ajuste estetico
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()
