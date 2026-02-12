@@ -34,7 +34,7 @@ axs[1, 1].bar(x5, nbinom.pmf(x5, 3, 0.5), color='orchid')
 axs[1, 1].set_title('Binomial Negativa (r=3, p=0.5)')
 
 # 6. Hipergeometrica (M=20, n=7, N=12)
-# M: total, n: éxitos en total, N: muestra
+# M: total, n: exitos en total, N: muestra
 x6 = np.arange(0, 8)
 axs[1, 2].bar(x6, hypergeom.pmf(x6, 20, 7, 12), color='coral')
 axs[1, 2].set_title('Hipergeométrica (20, 7, 12)')
